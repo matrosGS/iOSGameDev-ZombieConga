@@ -325,6 +325,7 @@ class GameScene: SKScene {
                 zombieCat.runAction(moveAction)
                 zombieCat.runAction(rotateAction)
             }
+            
             targetPosition = zombieCat.position
         }
     }
